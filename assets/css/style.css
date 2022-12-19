@@ -1,4 +1,4 @@
-* {
+*{
   box-sizing: border-box;
 }
 
@@ -8,11 +8,48 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
+
+header {
+  padding: 100px;
+  text-align: center;
+  background-image: ;
+  font-size: 30px;
+}
+
+.banner {
+  text-align: center;
+}
+.page-wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
+#Squidward{
+  im
+  height: 150px;
+  width: 150px; 
+}
+.page-section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+
+.page-section > div{
+  flex: 0 0 100%;
+
+}
+
 .proj1{
   background-image: url("../images/02-portfolio-1.jpg");
 }
 .proj2{
   background-image: url("../images/02-portfolio-1.jpg");
+
 }
 .proj3{
   background-image: url("../images/02-portfolio-1.jpg");
@@ -25,16 +62,16 @@ body {
 }
 .flex{
   display: flex;
-  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 }
 .flex-item{
-  display: flex;
   align-items: flex-end;
-  flex-basis: calc(50%-1em);
-  min-height: 150px;
+  min-height: 200px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
   margin: 0.5em;
+  display: flex;
 }
 
 .flex-item:first-child{
@@ -50,28 +87,7 @@ body {
  .flex-item{
   flex-basis: 100%;
  } 
+ .flex-item:first-child{
+  min-height: 150px;
+ }
 }
-/*
-h1 {
-
-}
-h2{
-
-}
-h3{
-
-}
-h4{
-
-}
-h5{
-
-}
-h6 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
-
