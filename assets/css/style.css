@@ -2,63 +2,90 @@
   box-sizing: border-box;
 }
 
+header{
+  
+  background-image: url(//cdn.shopify.com/s/files/1/0582/2198/5957/products/il_fullxfull.3198625044_retv.jpg?v=1633500375);
+  background-size: auto;
+  border-top: solid 20px thistle;
+  border-right: solid 20px thistle;
+  border-left: solid 20px thistle;
+  padding: 100px;
+  text-align: center;
+  
+}
+
+.baby-leezus {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  position: absolute;
+  color: white;
+  top: -50px;
+  left: 30px;
+  
+}
+
+.nav-bar{
+  position: absolute;
+  color: white;
+  right: 30px;
+  top: 175px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
+
+.banner{
+  background-color:thistle;
+  background-size: auto;
+  margin-top: -25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  text-align: center
+}
+
 body {
+  background-color: lavender;
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 1.5;
 }
 
-header {
-  padding: 100px;
-  text-align: center;
-  background-image: ;
-  font-size: 30px;
-}
-
-.banner {
-  text-align: center;
-}
-.page-wrapper{
+.containerGrid{
+  display: flex;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 33% 33% 33%;
+  grid-column-gap: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: 15px;
   margin-left: auto;
   margin-right: auto;
   max-width: 90%;
 }
-#Squidward{
-  im
-  height: 150px;
-  width: 150px; 
-}
+
 .page-section{
   display: flex;
+  width: 25%;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: space-between;
   margin: 25px 0;
+  background-image;
 }
 
 
-.page-section > div{
-  flex: 0 0 100%;
 
+.projects{
+  display: grid;
+  width: 75%;
+  
 }
 
-.proj1{
-  background-image: url("../images/02-portfolio-1.jpg");
-}
-.proj2{
-  background-image: url("../images/02-portfolio-1.jpg");
+.proj1, .proj2, .proj3, .proj4, .proj5{
+  background-image: url(https://cdn.shopify.com/s/files/1/0582/2198/5957/products/il_fullxfull.3198625044_retv.jpg?v=1633500375);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-}
-.proj3{
-  background-image: url("../images/02-portfolio-1.jpg");
-}
-.proj4{
-  background-image: url("../images/02-portfolio-1.jpg");
-}
-.proj5{
-  background-image: url("../images/02-portfolio-1.jpg");
 }
 .flex{
   display: flex;
@@ -82,6 +109,15 @@ header {
 .flex-item div{
   background-color: blueviolet;
   padding: 10px;
+}
+
+.contact{
+  background-image: url(//cdn.shopify.com/s/files/1/0582/2198/5957/products/il_fullxfull.3198625044_retv.jpg?v=1633500375);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  background-color: lavender;
+  background-size: auto;
+  border: solid thistle 20px;
 }
 @media screen and (max-width:768px) {
  .flex-item{
